@@ -1,4 +1,4 @@
-function filterPush ( dataArray, updateArray, mixedCallback ) {
+function modifyArray ( dataArray, updateArray, mixedCallback ) {
     if ( updateArray && updateArray.constructor.name === 'Array' ) {
         if ( typeof mixedCallback === 'function' ) {
             dataArray.forEach(function ( item, itemIndex ) {
